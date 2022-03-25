@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingV1" duration-ms="10009" started-at="2022-03-25T05:37:04Z" finished-at="2022-03-25T05:37:14Z">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="10009" started-at="2022-03-25T05:37:04Z" finished-at="2022-03-25T05:37:14Z">
+      <class name="com.inetbanking.testcases.TC_LoginTest_0001">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.inetbanking.testcases.TC_LoginTest_0001@5db45159]" name="Setup" is-config="true" duration-ms="7412" started-at="2022-03-25T05:37:04Z" finished-at="2022-03-25T05:37:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.inetbanking.testcases.TC_LoginTest_0001@5db45159]" name="login" duration-ms="2565" started-at="2022-03-25T05:37:11Z" finished-at="2022-03-25T05:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.inetbanking.testcases.TC_LoginTest_0001 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- InetBankingV1 -->
+</testng-results>
